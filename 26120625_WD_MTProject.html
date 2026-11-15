@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)file:///C:/Users/karti/.copilot/logs/IIMB.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Resume</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Segoe UI, Arial, sans-serif;
+      background: #eef2f7;
+      padding: 30px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    input[type="radio"] {
+      display: none;
+    }
+
+    .navigation {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .navigation label {
+      padding: 12px 25px;
+      background: white;
+      border-radius: 40px;
+      cursor: pointer;
+      font-weight: 600;
+      border: 1px solid #dcdcdc;
+      transition: 0.3s;
+    }
+
+    .navigation label:hover {
+      background: #1c3556;
+      color: white;
+    }
+
+    .page {
+      display: none;
+      background: white;
+      min-height: 1000px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, .12);
+    }
+
+    #page1btn:checked~.container #page1,
+    #page2btn:checked~.container #page2,
+    #page3btn:checked~.container #page3,
+    #page4btn:checked~.container #page4 {
+      display: grid;
+    }
+
+    .resume {
+      display: grid;
+      grid-template-columns: 65% 35%;
+    }
+
+    .main {
+      padding: 40px;
+    }
+
+    .sidebar {
+      background: #1c3556;
+      color: white;
+      padding: 40px 30px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .role {
+      color: #555;
+      margin-bottom: 25px;
+    }
+
+    .section {
+      margin-top: 35px;
+    }
+
+    .section-title {
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 8px;
+      margin-bottom: 15px;
+    }
+
+    .item {
+      margin-bottom: 20px;
+    }
+
+    .item h3 {
+      margin-bottom: 6px;
+    }
+
+    .date {
+      color: #777;
+      font-size: 13px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .sidebar-section {
+      margin-bottom: 30px;
+    }
+
+    .sidebar-section h3 {
+      margin-bottom: 12px;
+      border-bottom: 1px solid rgba(255, 255, 255, .3);
+      padding-bottom: 8px;
+    }
+
+    .skill {
+      display: inline-block;
+      background: white;
+      color: #1c3556;
+      padding: 6px 12px;
+      border-radius: 20px;
+      margin: 4px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    .page-number {
+      text-align: right;
+      padding-top: 40px;
+      color: #888;
+    }
+
+    @media(max-width:768px) {
+      .resume {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar {
+        order: -1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <input type="radio" name="pages" id="page1btn" checked="">
+  <input type="radio" name="pages" id="page2btn">
+  <input type="radio" name="pages" id="page3btn">
+  <input type="radio" name="pages" id="page4btn">
+
+  <div class="container">
+
+    <div class="navigation">
+      <label for="page1btn">Profile</label>
+      <label for="page2btn">Experience</label>
+      <label for="page3btn">Hobbies</label>
+    </div>
+
+    <!-- PAGE 1 -->
+
+    <div class="page" id="page1">
+      <div class="resume">
+
+        <div class="main">
+
+          <h1>Kartik Singh</h1>
+
+          <p class="role">
+            Communications Specialist | Marketing | Strategy
+          </p>
+
+          <div class="section">
+            <div class="section-title">Profile</div>
+
+            <p>
+              Creative communication student with experience in social media marketing,
+              digital storytelling, campaign management and analytics.
+            </p>
+          </div>
+
+          <div class="section">
+            <div class="section-title">Education</div>
+
+            <div class="item">
+              <h3>University of Delhi, Ramanujan College</h3>
+              <div class="date">BSc.(Hons) Statistics • 26-29</div>
+            </div>
+
+          </div>
+
+          
+
+        </div>
+
+        <div class="sidebar">
+
+<img src="./26120625_WD_MTProject_files/IMG-20261003-WA0249.jpg" alt="Kartik Singh" class="profile-pic">
+
+<style>
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+  }
+</style>
+          <div class="sidebar-section">
+            <h3>Contact</h3>
+            <p>📧<a href="mailto:kartiksingh,gwl@gmail.com">Kartik Singh</a></p>
+             Mail ID
+            <p>🔗<a href="https://www.instagram.com/kary._.xo/" target="_blank" rel="noopener noreferrer">Instagram</a></p>
+              Visit the Instagram page
+              <p>🔷<a href="https://www.linkedin.com/in/kartik-singh-0b2b8b21a/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+              Visit the LinkedIn page
+
+              <br><br <p="">📍 Delhi, India<p></p>
+          </div>
+
+          <div class="sidebar-section">
+            <h3>Languages</h3>
+            <ul>
+              <li><p>English</p></li>
+              <li><p>Hindi</p></li>
+              <li><p>Spanish</p></li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <!-- PAGE 2 -->
+
+    <div class="page" id="page2">
+      <div class="resume">
+
+        <div class="main">
+
+          <div class="section-title">Experience</div>
+
+          <div class="item">
+            <h3>About My Work</h3>
+            <div class="date">2023 - Present</div>
+<br><br>
+            I believe that data tells stories hidden beneath numbers. My work focuses on exploring datasets, identifying trends, and
+            presenting insights in a way that is both meaningful and actionable. Whether I am analyzing statistical information,
+            developing web-based projects, or learning new technologies, I approach every challenge with curiosity and a commitment
+            to continuous improvement.
+            <br><br>
+            Over time, I have built projects that combine analytical thinking with technical skills, allowing me to strengthen my
+            understanding of data science and business intelligence. Each experience has helped me become more confident in tackling
+            complex problems and communicating solutions effectively.
+            <br><br>
+            As technology continues to evolve, I remain focused on expanding my knowledge in analytics, programming, and
+            visualization tools while creating projects that demonstrate both creativity and technical expertise.
+            <br><br>
+            My objective is to build a career in Data Analytics and Data Science, where I can apply statistical knowledge,
+            analytical thinking, and technology to solve real-world problems. I am committed to continuous learning and aspire to
+            contribute to data-driven decision-making that creates meaningful impact.
+          </div>
+
+          
+
+        </div>
+
+        <div class="sidebar">
+          <h3>Tools</h3>
+          <br><br>
+          <li><div class="skill">Python</div></li>
+          <li><div class="skill">GA4</div></li>
+          <li><div class="skill">Canva</div></li>
+          <li><div class="skill">Mailchimp</div></li>
+          <li><div class="skill">Photoshop</div></li>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- PAGE 3 -->
+
+    <div class="page" id="page3">
+      <div class="resume">
+
+        <div class="main">
+
+          <div class="section-title">
+             Hobbies
+          </div>
+
+          <div class="item">
+            <h3>What I Love Doing</h3>
+            <div class="date">2023 - Present</div>
+
+            <br><br>
+            <br>
+
+            <ul>
+              <li><h4>📊 Data Analysis</h4>Exploring datasets and discovering meaningful insights.</li>
+              <li><h4>🎨 Creative Design</h4>Creating visually appealing content.</li>
+              <li><h4>📖 Reading</h4>Exploring books and articles on various topics.</li>
+              <li><h4>🎥 Video Editing</h4>Creating engaging educational and creative content.</li>
+              <li><h4>📸 Photography</h4>Capturing landscapes and everyday moments.</li>
+              <li><h4>✈ Traveling</h4>Exploring new places and cultures.</li>
+              <li><h4>🎶 Music</h4>Listening to a variety of genres and discovering new artists.</li>
+              <li><h4>📝 Writing</h4>Expressing thoughts and ideas through writing.</li>
+              <li><h4>🤝 Volunteering</h4>Contributing to community service and social causes.</li>
+              <li><h4>💡 Innovation</h4>Exploring new ideas and creative solutions.</li>
+            </ul>
+          </div>
+
+          
+
+        </div>
+
+        <div class="sidebar">
+          <h3>Achievements</h3>
+<br><br>
+          <li><p>Won Best Student Award</p></li>
+          <li><p>Published Research Paper</p></li>
+          <li><p>Volunteered at Local Community Center</p></li>
+
+        </div>
+
+      </div>
+    </div>
+
+</div></body></html>
